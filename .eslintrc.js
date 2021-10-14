@@ -9,7 +9,7 @@ module.exports = {
 		browser: true
 	},
     extends: [
-		'eslint:recommended'
+		'eslint:recommended',
 	],
 	parser: "babel-eslint",
 	rules: {}
