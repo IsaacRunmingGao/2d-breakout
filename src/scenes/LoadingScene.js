@@ -25,6 +25,7 @@ export default class LoadingScene extends Phaser.Scene {
         this.ball.body.collideWorldBounds = true;
         this.ball.body.bounce.set(1);
         this.physics.add.collider(this.ball, this.paddle)
+        this.physics.world.checkCollision.down = false;
         this.paddle.body.immovable = true;
     }
 
